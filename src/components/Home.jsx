@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/hero.jpg";
+import HeroImage from "../assets/hero03.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -20,7 +20,7 @@ const Home = () => {
             TailwindCSS, Styled-Components, and NodeJS.
           </p>
 
-          <div>
+          <div className="flex justify-center md:justify-start">
             <Link
               to="portfolio"
               smooth

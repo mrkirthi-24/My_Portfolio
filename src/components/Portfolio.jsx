@@ -1,6 +1,6 @@
 import React from "react";
 import linkedinclone from "../assets/portfolio/linkedinclone.jpg";
-import netflix from "../assets/portfolio/netflix.jpg";
+import keeper from "../assets/portfolio/keeper.jpg";
 import disneyhotstar from "../assets/portfolio/disneyhotstar.jpg";
 import crypto from "../assets/portfolio/crypto.jpg";
 import portfolio from "../assets/portfolio/portfolio.jpg";
@@ -34,9 +34,9 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      src: netflix,
+      src: keeper,
       demo: "",
-      code: "https://github.com/mrkirthi-24/netflix_clone",
+      code: "https://github.com/mrkirthi-24/KeeperApp-v01",
     },
     {
       id: 6,
