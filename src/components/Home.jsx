@@ -15,9 +15,9 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I'm a novice with extensive experience in Web development. I adore
+            I have extensive experience in building Web applications. I adore
             working on online applications right now with tools like ReactJS,
-            TailwindCSS, Styled-Components, and NodeJS.
+            TailwindCSS, Styled-Components, NodeJS, REST API, and Python.
           </p>
 
           <div className="flex justify-center md:justify-start">
