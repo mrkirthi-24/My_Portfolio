@@ -14,23 +14,32 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+          As a Full Stack Developer, I have transitioned from a career in
+          Business Development and possess a strong foundation in computer
+          science and programming. My experience has equipped me with valuable
+          skills in communication, problem-solving, and building relationships
+          that will benefit me in a software development role.
         </p>
 
         <br />
 
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+          Through self-study and hands-on experience, I have gained a strong
+          foundation in software engineering, data structures, algorithms, and
+          web development.I am committed to continuous learning and staying up
+          to date with the latest industry trends and best practices. As a team
+          player, I enjoy collaborating with other developers and stakeholders
+          and have excellent communication skills that enable me to explain
+          technical concepts to non-technical stakeholders.
+        </p>
+
+        <br />
+
+        <p className="text-xl">
+          Outside of work, I enjoy attending tech events, participate in online
+          forums, and keep up with the latest industry trends. I am enthusiastic
+          about starting their career as a Full Stack Developer and look forward
+          to contributing my skills and knowledge to exciting new projects.
         </p>
       </div>
     </div>
