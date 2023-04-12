@@ -7,13 +7,13 @@ const About = () => {
       className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div className="text-center mt-24 sm:mt-0">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             About
           </p>
         </div>
 
-        <p className="text-xl mt-20">
+        <p className="text-l sm:text-xl mt-20">
           As a Full Stack Developer, I have transitioned from a career in
           Business Development and possess a strong foundation in computer
           science and programming. My experience has equipped me with valuable
@@ -23,7 +23,7 @@ const About = () => {
 
         <br />
 
-        <p className="text-xl">
+        <p className="text-l sm:text-xl">
           Through self-study and hands-on experience, I have gained a strong
           foundation in software engineering, data structures, algorithms, and
           web development.I am committed to continuous learning and staying up
@@ -35,7 +35,7 @@ const About = () => {
 
         <br />
 
-        <p className="text-xl">
+        <p className="text-l sm:text-xl mb-24 sm:mb-0">
           Outside of work, I enjoy attending tech events, participate in online
           forums, and keep up with the latest industry trends. I am enthusiastic
           about starting their career as a Full Stack Developer and look forward
