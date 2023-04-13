@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaBars, FaGithub, FaLinkedin, FaTimes } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
@@ -25,6 +27,45 @@ const NavBar = () => {
     {
       id: 5,
       link: "contact",
+    },
+  ];
+
+  const SocialLinks = [
+    {
+      id: 1,
+      child: (
+        <>
+          <FaLinkedin size={30} />
+        </>
+      ),
+      href: "https://www.linkedin.com/in/kirthi-bagrecha/",
+    },
+    {
+      id: 2,
+      child: (
+        <>
+          <FaGithub size={30} />
+        </>
+      ),
+      href: "https://www.github.com/mrkirthi-24/",
+    },
+    {
+      id: 3,
+      child: (
+        <>
+          <HiOutlineMail size={30} />
+        </>
+      ),
+      href: "mailto:kirthibagrecha4@gmail.com",
+    },
+    {
+      id: 4,
+      child: (
+        <>
+          <BsFillPersonLinesFill size={30} />
+        </>
+      ),
+      href: "https://drive.google.com/file/d/1KFBOrRg90P_qeIgcUoWjBd0t7ot6512j/view?usp=share_link",
     },
   ];
 
@@ -57,7 +98,7 @@ const NavBar = () => {
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500 transition ease-in-out delay-150">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
           {links.map(({ id, link }) => (
             <li
               key={id}
@@ -73,6 +114,22 @@ const NavBar = () => {
               </Link>
             </li>
           ))}
+          <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
+          <ul className="flex flex-row">
+            {SocialLinks.map(({ id, child, href, download }) => (
+              <li key={id} className="px-4 cursor-pointer py-6 text-4xl">
+                <a
+                  href={href}
+                  className="flex justify-between items-center w-full text-white"
+                  download={download}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {child}
+                </a>
+              </li>
+            ))}
+          </ul>
         </ul>
       )}
     </div>
