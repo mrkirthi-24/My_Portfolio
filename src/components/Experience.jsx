@@ -5,12 +5,12 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import github from "../assets/github.png";
-import tailwind from "../assets/tailwind.png";
+import styled from "../assets/styled.png";
 import sass from "../assets/sass.png";
 import wordpress from "../assets/wordpress.png";
-import shopify from "../assets/shopify.png";
+import jquery from "../assets/jquery.png";
 import nodejs from "../assets/nodejs.png";
-import mui from "../assets/mui.png";
+import express from "../assets/Expressjs.png";
 import firebase from "../assets/firebase.png";
 
 const Experience = () => {
@@ -35,51 +35,51 @@ const Experience = () => {
     },
     {
       id: 4,
-      src: reactImage,
-      title: "React",
-      style: "shadow-blue-600",
-    },
-    {
-      id: 5,
-      src: tailwind,
-      title: "Tailwind",
+      src: jquery,
+      title: "jQuery",
       style: "shadow-sky-400",
     },
     {
-      id: 6,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-400",
-    },
-    {
-      id: 7,
+      id: 5,
       src: sass,
       title: "Sass",
       style: "shadow-pink-500",
     },
     {
+      id: 6,
+      src: styled,
+      title: "Styled-Components",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 7,
+      src: reactImage,
+      title: "ReactJS",
+      style: "shadow-blue-600",
+    },
+    {
       id: 8,
-      src: wordpress,
-      title: "WordPress",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 9,
-      src: shopify,
-      title: "Shopify",
-      style: "shadow-green-500",
-    },
-    {
-      id: 10,
       src: nodejs,
       title: "NodeJS",
       style: "shadow-green-500",
     },
     {
-      id: 11,
-      src: mui,
-      title: "Material UI",
+      id: 9,
+      src: express,
+      title: "ExpressJS",
+      style: "shadow-white-500",
+    },
+    {
+      id: 10,
+      src: wordpress,
+      title: "WordPress",
       style: "shadow-blue-500",
+    },
+    {
+      id: 11,
+      src: github,
+      title: "GitHub",
+      style: "shadow-gray-400",
     },
     {
       id: 12,
