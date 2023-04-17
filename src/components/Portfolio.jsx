@@ -1,30 +1,30 @@
 import React from "react";
-import linkedinclone from "../assets/portfolio/linkedinclone.jpg";
+import connectify from "../assets/portfolio/Connectify.png";
 import keeper from "../assets/portfolio/keeper.jpg";
 import disneyhotstar from "../assets/portfolio/disneyhotstar.jpg";
-import crypto from "../assets/portfolio/crypto.jpg";
-import portfolio from "../assets/portfolio/portfolio.jpg";
+import crypto from "../assets/portfolio/crypto.png";
+import secureshare from "../assets/portfolio/Secureshare.png";
 import simongame from "../assets/portfolio/simongame.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: linkedinclone,
+      src: crypto,
       demo: "",
-      code: "https://github.com/mrkirthi-24/LinkedIn-Clone",
+      code: "https://github.com/mrkirthi-24/CoinWatch-crypto-tracker",
     },
     {
       id: 2,
-      src: crypto,
+      src: connectify,
       demo: "",
-      code: "https://github.com/mrkirthi-24/Crypto-Screener",
+      code: "https://github.com/mrkirthi-24/Connectify_App",
     },
     {
       id: 3,
-      src: portfolio,
+      src: secureshare,
       demo: "",
-      code: "https://github.com/mrkirthi-24/My_Portfolio",
+      code: "https://github.com/mrkirthi-24/SecureShare",
     },
     {
       id: 4,
