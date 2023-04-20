@@ -4,38 +4,33 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full bg-gradient-to-b from-gray-800 to-black text-white pt-10"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="text-center sm:text-left mt-24 sm:mt-0">
+      <div className="flex flex-col max-w-screen-lg p-4 mx-auto w-full h-full">
+        <div>
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             About
           </p>
         </div>
-
-        <p className="text-l sm:text-xl mt-20">
+        <p className="text-justify sm:text-left text-l sm:text-xl mt-20">
           As a Full Stack Developer, I have transitioned from a career in
           Business Development and possess a strong foundation in computer
           science and programming. My experience has equipped me with valuable
           skills in communication, problem-solving, and building relationships
           that will benefit me in a software development role.
         </p>
-
         <br />
-
-        <p className="text-l sm:text-xl">
+        <p className="text-justify sm:text-left text-l sm:text-xl">
           Through self-study and hands-on experience, I have gained a strong
           foundation in software engineering, data structures, algorithms, and
-          web development.I am committed to continuous learning and staying up
+          web development. I am committed to continuous learning and staying up
           to date with the latest industry trends and best practices. As a team
           player, I enjoy collaborating with other developers and stakeholders
           and have excellent communication skills that enable me to explain
           technical concepts to non-technical stakeholders.
         </p>
-
         <br />
-
-        <p className="text-l sm:text-xl mb-24 sm:mb-0">
+        <p className="text-justify sm:text-left text-l sm:text-xl">
           Outside of work, I enjoy attending tech events, participate in online
           forums, and keep up with the latest industry trends. I am enthusiastic
           about starting their career as a Full Stack Developer and look forward

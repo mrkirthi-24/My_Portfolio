@@ -11,10 +11,10 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white mt-6 sm:mt-0">
+          <h2 className="text-4xl sm:text-7xl font-bold text-white">
             <div>I'm a Full Stack Developer</div>
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
+          <p className="text-gray-500 py-4 max-w-md text-justify sm:text-left text-sm sm:text-lg">
             I have extensive experience in building Web applications. I adore
             working on online applications right now with tools like ReactJS,
             TailwindCSS, Styled-Components, NodeJS, ExpressJS, and MongoDB.
