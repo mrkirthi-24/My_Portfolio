@@ -5,7 +5,6 @@ import github from "../assets/github.png";
 import sass from "../assets/sass.png";
 import nodejs from "../assets/nodejs.png";
 import express from "../assets/Expressjs.png";
-import firebase from "../assets/firebase.png";
 import nextjs from "../assets/nextjs.png";
 import trpc from "../assets/trpc.svg";
 import tailwind from "../assets/tailwind.png";
@@ -15,6 +14,7 @@ import typescript from "../assets/typescript.png";
 import postgresql from "../assets/postgresql.png";
 import mongodb from "../assets/mongodb.png";
 import turbo from "../assets/turbo.png";
+import zod from "../assets/zod.png";
 
 const Experience = () => {
   const techs = [
@@ -104,9 +104,9 @@ const Experience = () => {
     },
     {
       id: 14,
-      src: firebase,
-      title: "FireBase",
-      style: "shadow-yellow-500",
+      src: zod,
+      title: "Zod",
+      style: "shadow-blue-500",
     },
   ];
 
@@ -123,13 +123,17 @@ const Experience = () => {
           <p className="py-6">These are the technologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 ">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
-              <img src={src} alt="" className="w-20 mx-auto rounded-full" />
+              <img
+                src={src}
+                alt=""
+                className="w-20 h-20 mx-auto rounded-full"
+              />
               <p className="mt-4">{title}</p>
             </div>
           ))}
