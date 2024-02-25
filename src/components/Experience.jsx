@@ -1,8 +1,5 @@
 import React from "react";
 
-import reactjs from "../assets/react.png";
-import github from "../assets/github.png";
-import sass from "../assets/sass.png";
 import nodejs from "../assets/nodejs.png";
 import express from "../assets/Expressjs.png";
 import nextjs from "../assets/nextjs.png";
@@ -10,26 +7,14 @@ import trpc from "../assets/trpc.svg";
 import tailwind from "../assets/tailwind.png";
 import docker from "../assets/docker.webp";
 import mui from "../assets/mui.png";
-import typescript from "../assets/typescript.png";
 import postgresql from "../assets/postgresql.png";
 import mongodb from "../assets/mongodb.png";
 import turbo from "../assets/turbo.png";
+import django from "../assets/django.png";
 import zod from "../assets/zod.png";
 
 const Experience = () => {
   const techs = [
-    {
-      id: 1,
-      src: typescript,
-      title: "Typescript",
-      style: "shadow-blue-600",
-    },
-    {
-      id: 2,
-      src: reactjs,
-      title: "ReactJS",
-      style: "shadow-blue-600",
-    },
     {
       id: 3,
       src: nextjs,
@@ -43,16 +28,22 @@ const Experience = () => {
       style: "shadow-yellow-500",
     },
     {
-      id: 15,
-      src: trpc,
-      title: "tRPC",
-      style: "shadow-yellow-500",
-    },
-    {
       id: 5,
       src: nodejs,
       title: "NodeJS",
       style: "shadow-green-500",
+    },
+    {
+      id: 99,
+      src: django,
+      title: "Django",
+      style: "shadow-green-500",
+    },
+    {
+      id: 15,
+      src: trpc,
+      title: "tRPC",
+      style: "shadow-yellow-500",
     },
     {
       id: 6,
@@ -79,12 +70,6 @@ const Experience = () => {
       style: "shadow-blue-500",
     },
     {
-      id: 10,
-      src: sass,
-      title: "Sass",
-      style: "shadow-pink-500",
-    },
-    {
       id: 11,
       src: tailwind,
       title: "Tailwind",
@@ -95,12 +80,6 @@ const Experience = () => {
       src: mui,
       title: "Material-UI",
       style: "shadow-sky-400",
-    },
-    {
-      id: 13,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-400",
     },
     {
       id: 14,
